@@ -1,9 +1,10 @@
 import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
-import { router as notificationRouter } from './notificationRoutes';
 
-dotenv.config();
+dotenv.config(); 
+
+import { router as notificationRouter } from './notificationRoutes'; 
 
 const app = express();
 app.use(cors());
